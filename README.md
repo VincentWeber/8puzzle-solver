@@ -6,7 +6,7 @@ I wrote this script during my time as student assistent at the Seminar for Econo
 ## The Human-approach
 Solving a slinging puzzle often takes frustratingly long. Sometimes you think you're getting close, only to realize that the final tiles won't fit - so you have to start all over again. 
 
-Strategical approaches to solve the puzzle agree that fixing the first row is key to a quick success.
+Strategic approaches to solve the puzzle agree that fixing the first row is key to a quick success. In order to reach that first step, there are two approaches that are generally recommended:
 
 ### The Worm Strategy
 This strategy recommends to align the sequence {3, 2, 1} in the upper left corner. Starting with its "head", tile {3}, this "worm" is then moved into place.
@@ -15,7 +15,7 @@ This strategy recommends to align the sequence {3, 2, 1} in the upper left corne
 This approach relies on fixing tile {1} in the upper left corner. After tile {1} falls into place, tiles {2} and {3} are moved to the top. Usually, the sequence ends with tile {2} sliding in between tile {1} and {3} from below.
 
 ## The Code
-The 8puzzle-solver employs a modified A* search algorithm. 
+The 8puzzle-solver employs a modified A* search algorithm. In order to implement the "human" strategies, the solver proceeds in three steps.
 
 ## Getting Started
 If you run the script, it first asks you to enter the puzzle layout as a list separated by tab. 
